@@ -1,0 +1,287 @@
+/* ---- Defaults ---- */
+body,
+header,
+footer{
+    display: block;
+}
+
+body{
+    font-family: monospace,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col-1{width:8.33%}
+.col-2{width:16.66%}
+.col-3{width:25%}
+.col-4{width:33.33%}
+.col-5{width:41.66%}
+.col-6{width:50%}
+.col-7{width:58.33%}
+.col-8{width:66.66%}
+.col-9{width:75%}
+.col-10{width:83.33%}
+.col-11{width:91.66%}
+.col-12{width:100%}
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+/* ---- navigation ---- */
+
+nav{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 0;
+    min-height: 42px;
+    background-color: #222;
+}
+nav ul li{
+    display: block;
+    float: left;
+}
+.navbar-right{
+    float: right; 
+    text-align: center;
+}
+ul li a{
+    padding: 12px;
+    display: block;
+    color: #e2e2e2;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: #e2e2e2;
+    color: #222
+}
+ul li.ddicon{
+    line-height: 19px;
+    display: none;
+}
+
+/* ---- Custom Styles ---- */
+
+.section1-gradient{
+    background: #3d6296;
+    background: linear-gradient(#6c93c9,#3d6296);
+    background: -webkit-linear-gradient(#6c93c9,#3d6296);
+    background: -o-linear-gradient(#6c93c9,#3d6296);
+    background: -moz-linear-gradient(#6c93c9,#3d6296);
+
+}
+
+.large{
+  color: #fff;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+form h2{
+  color: #fff;
+  line-height: 20px;
+}
+.section1-left{
+  margin-left: 35%;
+  width: 100%
+}
+form .section1-left{
+  margin-left: 36%;
+}
+input[type="text"]{
+  width: 250px;
+  padding: 3px;
+  border: none;
+  border-radius: 3px;
+}
+.section1-right{
+  margin-left: 10%;
+}
+.section1-right img{
+  height: 280px;
+  width: 425px;
+}
+/* ---- Section 2 ---- */
+
+.section2-heading{
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+.section2-heading h1{
+  letter-spacing: 20px;
+}
+.section2-heading p{
+  padding: inherit 40px;
+}
+
+.box{
+  padding: 30px 40px;
+  margin: 30px;
+  text-align: center;
+  border:1px solid silver;
+  border-radius: 6px;
+}
+.box img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid orange;
+}
+.box h3{
+  font-size: 23px;
+}
+.box p{
+  text-align: justify;
+  padding: 10px 20px;  
+}
+
+
+/* ---- Fixed Background ---- */
+
+.fixed-bg{
+  padding:4% 0;
+}
+/* ---- Second Last Section ---- */
+article p{
+  padding: 30px;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.second-last-img {
+}
+.second-last-img img{
+  display: block;
+  margin: auto;
+  padding: 20px;
+  height: 250px;
+  width: 400px;
+}
+
+/* ----- Footer ---- */
+footer.foter{
+  background-color: #666;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.4;
+}
+footer.foter ul{
+  list-style: none;
+  padding: 0px;
+}
+
+
+
+/* ----- Mobile ----*/
+@media screen and (max-width:680px){
+    ul li:not(:nth-child(1)){
+        display: none;
+    }
+    ul li.ddicon{
+        display: block;
+        float: right;
+    }
+    ul.navbar.response {
+        position: relative;
+    }
+    ul.navbar.response li{
+        display: inline;
+        float: none;
+        text-align: left;
+    }
+    ul.navbar.response a{
+        display: block;
+    }
+    ul.navbar.response li.ddicon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+  .col-6,
+  .col-4,
+  .col-7,
+  .col-5{
+    width: 100%;
+    display: block;
+  }
+  .section1-left, form .section1-left{
+    margin:auto;
+    text-align: center;
+  }
+  .section1-right{
+    text-align:center;
+    margin: 40px auto;
+  }
+  .section1-right img{
+    height:230px;
+    width:365px;
+  }
+
+  .section2-heading h1{
+    letter-spacing: 4px;
+  }
+  article p{
+    font-size: 16px;
+    padding: 15px;
+  }
+  .second-last-img img{
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .second-last-img {
+    margin: 20px;
+  }
+  .foter-col{
+    width:50%;
+    display: block;
+  }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

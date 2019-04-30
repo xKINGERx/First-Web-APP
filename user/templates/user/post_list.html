@@ -1,0 +1,160 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Website</title>
+      <link rel="stylesheet" href="static/styles.css">
+  </head>
+  <body>
+    <nav> 
+          <ul class="navbar" id="responsive">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">About</a></li>
+              <li class="navbar-right"><a href="#">Sign Up</a></li>
+              <li class="navbar-right"><a href="#">Sign in</a></li>
+              <li class="ddicon" ><a href="javascript:void(0);" onclick="clicked()">&#9778;</a></li>
+          </ul>
+      </nav>
+
+    <div class="container section1-gradient" >
+         <div class="row">
+          <div class="col-6">
+              <div class="section1-left">
+                  <h1 class="large">Responsive Website</h1>
+                  <h1 class="large">Join team now</h1>
+              </div>
+              <form action="">
+                <div class="section1-left">
+                  <h2>Username</h2>
+                  <input type="text" name="username" placeholder="Username">
+                  <h2>Password</h2>
+                  <input type="text" name="username" placeholder="Password">
+                </div>
+              </form>
+          </div>
+            <div class="col-6">
+              <div class="section1-right">
+                <img src="Images/section1-img.jpg" alt="image">
+              </div>
+            </div>
+            
+          
+        </div>
+      </div>
+    
+    <div class="container">
+      <div class="section2-heading">
+        <h1>Lorem ipsum dolor</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, facilis laborum vel.</p>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="box">
+            <div>
+              <img src="Images/logo.jpg" alt="Logo">
+            </div>
+            <h3  class="section1-gradient">Learn with us!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, commodi placeat ipsam laudantium dignissimos! Velit unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam alias blanditiis laboriosam.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box">
+            <div>
+              <img src="Images/logo.jpg" alt="Logo">
+            </div>
+            <h3  class="section1-gradient">Coding is fun!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, commodi placeat ipsam laudantium dignissimos! Velit unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore officiis nihil ullam, voluptatibus suscipit maxime nobis maiores.</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box">
+            <div>
+              <img src="Images/logo.jpg" alt="Logo">
+            </div>
+            <h3 class="section1-gradient">The difficut the better</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, commodi placeat ipsam laudantium dignissimos! Velit unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section1-gradient fixed-bg">
+      
+    </div>
+    
+    <div class="container">
+     <div class="row">
+        <div class="col-7">
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad id amet iusto sunt, rerum, officia fugiat accusamus quas libero voluptates debitis impedit vel. Iusto possimus enim, laudantium ab animi voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nihil ratione natus minus neque ipsam eaque velit animi molestiae. Nostrum vitae mollitia, molestiae odio consequuntur, debitis totam sapiente quos suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repellendus vel obcaecati, dicta dolorem, explicabo odit delectus sunt beatae ad. Explicabo voluptas necessitatibus obcaecati corrupti voluptates quisquam ducimus inventore esse.
+            </p>
+          </article>
+      </div>
+        <div class="col-5">
+          <div class="second-last-img">
+            <img src="Images/laterSectionLogo.png" alt="Image">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  <footer class="foter">
+    <div class="row">
+      <div class="col-3 foter-col">
+        <h1>Subscribe</h1>
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3</li>
+        </ul>
+      </div>
+      <div class="col-3 foter-col">
+        <h1>Subscribe</h1>
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3</li>
+        </ul>
+      </div>
+      <div class="col-3 foter-col">
+        <h1>Subscribe</h1>
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3</li>
+        </ul>
+      </div>
+      <div class="col-3 foter-col">
+        <h1>Subscribe</h1>
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        function clicked(){
+            var x = document.getElementById("responsive");
+            if (x.className === "navbar"){
+                x.className += " response";
+            } else{
+                x.className = "navbar";
+            }
+        }
+    </script>
+</body>
+</html>
